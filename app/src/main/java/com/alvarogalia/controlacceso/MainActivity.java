@@ -20,6 +20,7 @@ import android.widget.TextView;
 
 import com.alvarogalia.controlacceso.Obj.Configuraciones;
 import com.alvarogalia.controlacceso.Obj.Destino;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         final ConstraintLayout llMain = findViewById(R.id.llMain);
         llMain.setBackgroundColor(Color.parseColor(preferences.getString("COLOR_MAINBACKGROUND", "#FFFFFF")));
+
 
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
 
