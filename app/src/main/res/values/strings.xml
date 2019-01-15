@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Control Acceso</string>
+    <string name="registrar_ingreso">Registrar ingreso</string>
+    <string name="vehiculo">Vehiculo</string>
+    <string name="persona">Persona</string>
+    <string name="herramientas">Herramientas</string>
+    <string name="listado_ingresos">Listado ingresos</string>
+    <string name="reportes">Reportes</string>
+    <string name="marca">Marca:</string>
+    <string name="tipo_veh_culo">Tipo vehículo:</string>
+    <string name="tipo_vehiculo">Tipo Vehiculo</string>
+    <string name="textview">TextView</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
